@@ -69,7 +69,6 @@ export default class Snow extends React.Component {
     })
     Animated.stagger(300, animations).start(() => this.animateSnow());
   }
-  
 ```
 ### 每片雪花的动画样式
 为了让雪花飘落显得真实自然，这里使用`Math.random`打乱了雪花的左右顺序。
@@ -83,7 +82,6 @@ export default class Snow extends React.Component {
 				outputRange: [-100, deviceHeight-100],
 			})
     	}
-
 	}
 ```
 ![雪花效果图哦~](https://upload-images.jianshu.io/upload_images/7225268-bbe20a1108da8d56.gif?imageMogr2/auto-orient/strip)
