@@ -7,7 +7,6 @@
 		"test": "jest"
 	},
 	"dependencies": {
-		"lottie-react-native": "^2.5.11",
 		"react": "16.0.0",
 		"react-native": "0.50.0",
 		"react-native-af-video-player": "^0.2.1",

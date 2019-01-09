@@ -93,6 +93,12 @@ export default class DragSquare extends React.Component {
         inputRange: [0, snowNumber],
         outputRange: [-100, deviceHeight - 100],
       }),
+      // transform: [{
+      // 	rotate: this.animatedValue[item].interpolate({
+      // 		inputRange: [0, 100],
+      // 		outputRange: ['0deg', '180deg']
+      // 	}),
+      // }]
     };
   }
 
