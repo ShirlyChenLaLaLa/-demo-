@@ -1,0 +1,133 @@
+parameters:
+    # image imagine_filter values
+    imagine_filter.quality.jpg: 70
+    imagine_filter.quality.png: 70
+
+    # filter data sources
+    imagine_filter.datasource.content_repository: cmf_media_doctrine_phpcr
+
+    # hero banners
+    imagine_filter.image_sizes.hero_banner.desktop.max_width:      1600
+    imagine_filter.image_sizes.hero_banner.desktop.max_height:     520
+    imagine_filter.image_sizes.hero_banner.mobile.max_width:       900
+    imagine_filter.image_sizes.hero_banner.mobile.max_height:      900
+
+    imagine_filter.image_sizes.hero_banner.property.desktop.max_width:      1250
+    imagine_filter.image_sizes.hero_banner.property.desktop.max_height:     700
+    imagine_filter.image_sizes.hero_banner.property.mobile.max_width:       800
+    imagine_filter.image_sizes.hero_banner.property.mobile.max_height:      440
+
+    # entities
+    imagine_filter.image_sizes.area_preview.desktop.width:              450
+    imagine_filter.image_sizes.area_preview.desktop.height:             425
+    imagine_filter.image_sizes.area_preview.mobile.width:               330
+    imagine_filter.image_sizes.area_preview.mobile.height:              230
+    imagine_filter.image_sizes.city_preview.desktop.width:              450
+    imagine_filter.image_sizes.city_preview.desktop.height:             425
+    imagine_filter.image_sizes.city_preview.mobile.width:               330
+    imagine_filter.image_sizes.city_preview.mobile.height:              230
+    imagine_filter.image_sizes.property_preview.desktop.width:          450
+    imagine_filter.image_sizes.property_preview.desktop.height:         338
+    imagine_filter.image_sizes.property_preview.mobile.width:           280
+    imagine_filter.image_sizes.property_preview.mobile.height:          195
+    imagine_filter.image_sizes.point_of_interest.desktop.width:         450
+    imagine_filter.image_sizes.point_of_interest.desktop.height:        550
+    imagine_filter.image_sizes.point_of_interest.mobile.width:          330
+    imagine_filter.image_sizes.point_of_interest.mobile.height:         230
+    imagine_filter.image_sizes.entity_map_preview.mobile.width:         330
+    imagine_filter.image_sizes.entity_map_preview.mobile.height:        230
+    imagine_filter.image_sizes.browse_featured_item.width:              376
+    imagine_filter.image_sizes.browse_featured_item.height:             240
+
+    # gallery
+    imagine_filter.image_sizes.light_gallery.main_desktop.max_width:  1280
+    imagine_filter.image_sizes.light_gallery.main_desktop.max_height: 1280
+    imagine_filter.image_sizes.light_gallery.main_mobile.max_width:   600
+    imagine_filter.image_sizes.light_gallery.main_mobile.max_height:  600
+    imagine_filter.image_sizes.light_gallery.miniature.width:     100
+    imagine_filter.image_sizes.light_gallery.miniature.height:    100
+
+    # gallery blocks
+    imagine_filter.image_sizes.gallery.large.width:      510
+    imagine_filter.image_sizes.gallery.large.height:     430
+    imagine_filter.image_sizes.gallery.medium.width:     510
+    imagine_filter.image_sizes.gallery.medium.height:    210
+    imagine_filter.image_sizes.gallery.small.width:      250
+    imagine_filter.image_sizes.gallery.small.height:     210
+    imagine_filter.image_sizes.gallery.miniature.width:  100
+    imagine_filter.image_sizes.gallery.miniature.height: 100
+
+    # area quick facts
+    imagine_filter.image_sizes.quick_fact.height: 70
+
+    # cms-specfic filter sizes
+    imagine_filter.image_sizes.cms.image_upload_thumbnail.width: 250
+    imagine_filter.image_sizes.cms.image_upload_thumbnail.height: 250
+    imagine_filter.image_sizes.cms.thumbnail.width: 250
+    imagine_filter.image_sizes.cms.thumbnail.height: 250
+    imagine_filter.image_sizes.cms.wide_image.width: 2000
+    imagine_filter.image_sizes.cms.wide_image.height: 2000
+
+    # property page, area next to map
+    imagine_filter.image_sizes.property_map_aside.width: 902
+    imagine_filter.image_sizes.property_map_aside.height: 579
+
+    # property page, room categories
+    imagine_filter.image_sizes.property_room_gallery.desktop.width: 288
+    imagine_filter.image_sizes.property_room_gallery.desktop.height: 175
+
+    # my applications page, enquiry property images
+    imagine_filter.image_sizes.my_applications.enquiry_property.desktop.width: 144
+    imagine_filter.image_sizes.my_applications.enquiry_property.desktop.height: 160
+    imagine_filter.image_sizes.my_applications.enquiry_property.mobile.width: 268
+    imagine_filter.image_sizes.my_applications.enquiry_property.mobile.height: 64
+
+    # mobile app, property preview
+    # phone
+    imagine_filter.image_sizes.mobile_app.property_preview_phone.width:  375
+    imagine_filter.image_sizes.mobile_app.property_preview_phone.height: 281
+    
+    # phone 2x
+    imagine_filter.image_sizes.mobile_app.property_preview_phone_2x.width:  750
+    imagine_filter.image_sizes.mobile_app.property_preview_phone_2x.height: 562
+    
+    # phone 3x
+    imagine_filter.image_sizes.mobile_app.property_preview_phone_3x.width:  1125
+    imagine_filter.image_sizes.mobile_app.property_preview_phone_3x.height: 843
+    
+    # tablet
+    imagine_filter.image_sizes.mobile_app.property_preview_tablet.width:  375
+    imagine_filter.image_sizes.mobile_app.property_preview_tablet.height: 281
+    
+    # tablet 2x
+    imagine_filter.image_sizes.mobile_app.property_preview_tablet_2x.width:  750
+    imagine_filter.image_sizes.mobile_app.property_preview_tablet_2x.height: 562
+    
+    # tablet 3x
+    imagine_filter.image_sizes.mobile_app.property_preview_tablet_3x.width:  1125
+    imagine_filter.image_sizes.mobile_app.property_preview_tablet_3x.height: 843
+    
+    # mobile app, city preview
+    # phone
+    imagine_filter.image_sizes.mobile_app.city_preview_phone.width:  375
+    imagine_filter.image_sizes.mobile_app.city_preview_phone.height: 122
+    
+    # phone 2x
+    imagine_filter.image_sizes.mobile_app.city_preview_phone_2x.width:  750
+    imagine_filter.image_sizes.mobile_app.city_preview_phone_2x.height: 244
+    
+    # phone 3x
+    imagine_filter.image_sizes.mobile_app.city_preview_phone_3x.width:  1125
+    imagine_filter.image_sizes.mobile_app.city_preview_phone_3x.height: 366
+    
+    # tablet
+    imagine_filter.image_sizes.mobile_app.city_preview_tablet.width:  375
+    imagine_filter.image_sizes.mobile_app.city_preview_tablet.height: 122
+    
+    # tablet 2x
+    imagine_filter.image_sizes.mobile_app.city_preview_tablet_2x.width:  750
+    imagine_filter.image_sizes.mobile_app.city_preview_tablet_2x.height: 244
+    
+    # tablet 3x
+    imagine_filter.image_sizes.mobile_app.city_preview_tablet_3x.width:  1125
+    imagine_filter.image_sizes.mobile_app.city_preview_tablet_3x.height: 366
