@@ -5,5 +5,5 @@
 .pub/
 
 build/
-
+.history
 .flutter-plugins
