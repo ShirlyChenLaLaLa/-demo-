@@ -14,6 +14,7 @@ router.get('/', async function (req, res, next) {
   const usingKeys = new Set();
   const translationData = await JSON.parse(readFile('/Users/yuhanchen/repos/native-mobile-app/src/resources/translations/zh-cn.json'));
   const fullPaths = [];
+
   readDirRecur('/Users/yuhanchen/repos/native-mobile-app/src', (item, data, fullPath) => {
     fullPaths.push(fullPath);
   }).then(() => {
@@ -39,9 +40,8 @@ router.get('/', async function (req, res, next) {
         usingKeys.add(translationKey);
       }
     })
-    logger.debug(usingKeys);
-    const myData = {};
 
+    const myData = {};
     usingKeys.forEach((usingkey) => {
       myData[usingkey] = translationData[usingkey];
     })
