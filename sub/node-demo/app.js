@@ -11,6 +11,7 @@ var users = require('./routes/users');
 var file = require('./routes/file');
 var yamlToJson = require('./routes/yamlToJson');
 var translation = require('./routes/translation');
+var getWebTranslation = require('./routes/getWebTranslation');
 var app = express();
 
 // view engine setup
@@ -31,6 +32,7 @@ app.use('/yamlToJson', yamlToJson);
 app.use('/translation', translation);
 app.use('/quanjia',pachongquanjia.pachong);
 app.use('/file', file);
+app.use('/getWebTranslation', getWebTranslation);
 // app.use('/pachong',pachong);
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
