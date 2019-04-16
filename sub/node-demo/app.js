@@ -9,6 +9,7 @@ var pachongquanjia = require('./routes/pachongquanjia');
 var index = require('./routes/index');
 var users = require('./routes/users');
 var file = require('./routes/file');
+var diffOldTranslation = require('./routes/diffOldTranslation');
 var yamlToJson = require('./routes/yamlToJson');
 var translation = require('./routes/translation');
 var getWebTranslation = require('./routes/getWebTranslation');
@@ -33,6 +34,7 @@ app.use('/translation', translation);
 app.use('/quanjia',pachongquanjia.pachong);
 app.use('/file', file);
 app.use('/getWebTranslation', getWebTranslation);
+app.use('/diffOldTranslation', diffOldTranslation);
 // app.use('/pachong',pachong);
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
